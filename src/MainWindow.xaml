@@ -1,0 +1,25 @@
+﻿<Window x:Class="SyscallSummariser.MainWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Title="ETW Syscall Monitor"
+             Height="1200"
+             Width="1000">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="24"/>
+            <RowDefinition Height="1000*"/>
+            <RowDefinition Height="200"/>
+        </Grid.RowDefinitions>
+        <TextBox Name="filterBox" Grid.Row="0" TextChanged="FilterText"/>
+        <TreeView
+            x:Name="treeView"
+            Grid.Row="1"/>
+        <RichTextBox
+            x:Name="logWindow"
+            Grid.Row="2"
+            Background="Black"
+            FontFamily="Lucida Console">
+            <FlowDocument/>
+        </RichTextBox>
+    </Grid>
+</Window>

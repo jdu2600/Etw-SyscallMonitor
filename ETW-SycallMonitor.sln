@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28714.193
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{08FB35DE-EB89-4EBE-8671-8ACF755A295B}") = "ETW-SyscallMonitor", "src\ETW-SyscallMonitor.csproj", "{21A4C658-2929-484D-A54A-94360040EE3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21A4C658-2929-484D-A54A-94360040EE3F}.Debug|x64.ActiveCfg = Debug|x64
+		{21A4C658-2929-484D-A54A-94360040EE3F}.Debug|x64.Build.0 = Debug|x64
+		{21A4C658-2929-484D-A54A-94360040EE3F}.Release|x64.ActiveCfg = Release|x64
+		{21A4C658-2929-484D-A54A-94360040EE3F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {269C8D8C-CA9A-4872-9494-DF1CD513FBDE}
+	EndGlobalSection
+EndGlobal
